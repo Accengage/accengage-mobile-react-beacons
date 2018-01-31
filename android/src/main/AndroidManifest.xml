@@ -1,18 +1,3 @@
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.accengage.react.beacons">
-
-    <uses-permission android:name="android.permission.BLUETOOTH"/>
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-
-    <receiver
-        android:name=".BeaconReceiver"
-        android:permission="com.ad4screen.coffeesample.internal.permission.A4S_SEND" >
-        <intent-filter>
-            <action android:name="com.ad4screen.sdk.intent.action.TRIGGER" />
-            <category android:name="com.ad4screen.sdk.intent.category.BEACON_NOTIFICATIONS" />
-        </intent-filter>
-    </receiver>
-
 </manifest>
-  
