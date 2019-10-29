@@ -42,6 +42,6 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile 'com.ad4screen.sdk:A4SSDK-Plugin-Beacons:1.2.1'
+    compile 'com.ad4screen.sdk:A4SSDK-Plugin-Beacons:4.0.3'
 }
   
